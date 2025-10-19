@@ -59,7 +59,7 @@ model_path: "abmpnn"
 mpnn_weights: "abmpnn"
 
 # Structure prediction settings
-structure_model: "af3"
+structure_model: "chai"
 msa_mode: "target"
 
 # AF3 configuration (required when structure_model == "af3")

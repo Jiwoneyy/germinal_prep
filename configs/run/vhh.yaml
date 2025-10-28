@@ -35,7 +35,7 @@ softmax_steps: 35
 search_steps: 10
 search_mutation_rate: 0.05
 plddt_threshold: 0.82
-i_ptm_threshold: 0.68
+i_ptm_threshold: 0.62
 i_pae_threshold: 0.27
 seq_entropy_threshold: 0.10
 

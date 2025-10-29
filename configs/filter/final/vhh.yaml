@@ -16,7 +16,7 @@ binder_near_hotspot:
   operator: '=='
 
 cdr3_hotspot_contacts:
-  value: 0.3
+  value: 0.15
   operator: '>'
 
 percent_interface_cdr:
@@ -24,11 +24,11 @@ percent_interface_cdr:
   operator: '>='
 
 interface_shape_comp:
-  value: 0.6
+  value: 0.5
   operator: '>='
 
 interface_hbonds:
-  value: 3
+  value: 2
   operator: '>='
 
 # Hydrophobicity metrics
@@ -37,20 +37,20 @@ surface_hydrophobicity:
   operator: '<='
 
 interface_hydrophobicity:
-  value: 45
+  value: 40
   operator: '>='
 
 # Confidence metrics
 pdockq2:
-  value: 0.23
-  operator: '>'
+  value: 0.2
+  operator: '>='
 
 external_plddt:
   value: 0.87
   operator: '>'
 
 external_iptm:
-  value: 0.74
+  value: 0.65
   operator: '>'
 
 external_ptm:
@@ -58,5 +58,5 @@ external_ptm:
   operator: '>'
 
 external_pae:
-  value: 7.5
+  value: 9
   operator: '<'

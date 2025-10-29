@@ -17,7 +17,7 @@ weights_pae_intra: 0.1
 weights_pae_inter: 0.5
 weights_iptm: 0.7
 weights_con_intra: 0.1
-weights_con_inter: 0.2
+weights_con_inter: 0.4
 weights_rg: 0.1
 weights_helix: 0.1
 weights_beta: 0.1
@@ -30,14 +30,14 @@ framework_contact_loss: true
 framework_contact_offset: 1
 
 # Hallucination settings
-logits_steps: 65
+logits_steps: 100
 softmax_steps: 35
-search_steps: 10
-search_mutation_rate: 0.05
-plddt_threshold: 0.8
-i_ptm_threshold: 0.6
-i_pae_threshold: 0.3
-seq_entropy_threshold: 0.10
+search_steps: 30
+search_mutation_rate: 0.15
+plddt_threshold: 0.75
+i_ptm_threshold: 0.5
+i_pae_threshold: 0.4
+seq_entropy_threshold: 0.05
 
 # IgLM settings
 grad_merge_method: "pcgrad"
@@ -45,15 +45,15 @@ iglm_scale: [0.0, 0.2, 0.4, 1.0]
 iglm_temp: 0.6
 iglm_species: "[CAMEL]"
 seq_init_mode: ["gumbel", "soft"]  # STATIC: Fixed list, no argparse option
-bias_redesign: 10
+bias_redesign: 15
 use_pos_distance: true
 clear_best: true
 
 # Sequence redesign settings
 mpnn_fix_interface: true
-num_seqs: 40
-max_mpnn_sequences: 5
-sampling_temp: 0.1
+num_seqs: 50
+max_mpnn_sequences: 7
+sampling_temp: 0.2
 backbone_noise: 0.0
 model_path: "abmpnn"
 mpnn_weights: "abmpnn"

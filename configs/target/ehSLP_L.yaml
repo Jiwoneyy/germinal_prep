@@ -1,8 +1,0 @@
-# @package target
-# ehSLP_L target configuration
-
-target_name: "ehSLP_L"
-target_pdb_path: "pdbs/ehSLP.pdb"
-target_chain: "A"
-binder_chain: "B"
-target_hotspots: "A80,A81,A146,A147,A148,A149,A150,A177,A179,A180,A181,A182,A183,A184,A185,A206,A207,A208,A209,A244,A245,A271,A274,A348,A350,A351,A352,A353,A354,A355,A356"

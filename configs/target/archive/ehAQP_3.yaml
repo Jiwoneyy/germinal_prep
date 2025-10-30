@@ -1,0 +1,8 @@
+# @package target
+#ehAQP_3 target configuration
+
+target_name: "ehAQP_3"
+target_pdb_path: "pdbs/ehAQP.pdb"
+target_chain: "A"
+binder_chain: "B"
+target_hotspots: "A30,A119,A123"

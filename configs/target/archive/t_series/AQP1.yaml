@@ -1,0 +1,6 @@
+# @package target
+target_name: "AQP1"
+target_pdb_path: "pdbs/ehAQP.pdb"
+target_chain: "A"
+binder_chain: "B"
+target_hotspots: "A33,A34,A38,A40,A41,A42"

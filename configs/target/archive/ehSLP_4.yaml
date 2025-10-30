@@ -1,0 +1,8 @@
+# @package target
+# ehSLP_4 target configuration
+
+target_name: "ehSLP_4"
+target_pdb_path: "pdbs/ehSLP.pdb"
+target_chain: "A"
+binder_chain: "B"
+target_hotspots: "A245,A273,A350"
